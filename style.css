@@ -2,37 +2,42 @@
 body {
     font-family: Comic Sans MS;
 }
-h1 {
+header {
     background: #dcdcdc;
+}
+h1, h2 {
     text-align: center;
 }
 p {
     text-align: center;
 }
+img {
+    float: left;
+    height: 100px;
+}
 #aulas {
-    background: #0000ff;
+    background: #ff0000;
     color: #ffffff;
     border: 1px solid #808080;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
 }
 #assessoramento {
-    background: #4b83f9;
+    background: #ffff00;
     border: 1px solid #808080;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
 }
 #vendedor {
-    background: #4b83f9;
+    color: #ffffff;
     border: 1px solid #808080;
     border-radius: 10px;
+    padding: 0px 10px 10px 10px;
 }
-.errado {
-    text-decoration: line-through;
-}
-.siteEmConstrucao {
-    text-align: center;
-    font-size: 40px;
+#vendedor h3 {
+    background: #0000ff;
 }
 #banner {
 	position: relative;
@@ -45,17 +50,17 @@ p {
 footer {
     background: #f9f9f9;
 }
-.fas fa-phone-square {
-    color: #0000ff;
-    size: 7x;
+h5 {
+    margin-bottom: 0px;
+}
+address p {
+    font-size: 10px;
+    text-align: left;
 }
 #telefones {
-    margin-top: 35px;
+    margin-top: 25px;
     margin-left: 40px;
 }
 #telefones li {
-    font-size: 8px;
-}
-fab fa-whatsapp {
-    color: #008000;
+    font-size: 10px;
 }
