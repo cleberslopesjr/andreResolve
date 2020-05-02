@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>André Resolve</title>
-    <meta name: author content: github.com/cleberslopesjr>
+    <meta name="author" content="github.com/cleberslopesjr">
     <meta name="keyword" content="andreresolve, Andre Resolve">
     <meta name="description" content="site_para divulgação do trabalho do Prof. André.">
     <meta name="robots" content="index,follow">
-    
-
     <!-- Início dos metadados para o Facebook -->
     <meta property="og:locale" content="pt_br">
 	<meta property="og:site_name" content="Andre Resolve">
@@ -49,7 +47,7 @@
         <ul>
             <li>Celulares;</li>
             <li>TVs:</li>
-            <ul>
+            <ul> <!-- Erro detectado pelo validador W3C: "Elemento ul não permitido como filho do elemento ul neste contexto. Verificar e corrigir. -->
                 <li>LCDs, e;</li>
                 <li>Led.</li>
             </ul>
@@ -61,22 +59,28 @@
         </ul>
     </article>
     <article id="vendedor">
-    <h3>Vendedor externo do Magazine Luiza:</h3>
-    <aside id="banner">
-        <div data-mvc-banner="medium-rectangle"></div><script> (function(storeName) { var b = document.createElement('script'); b.type = 'text/javascript'; b.async = true; b.src = 'https://www.magazinevoce.com.br/js/banner.js?store='+ storeName; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(b, s); })('andreresolve'); </script>
+        <h3>Vendedor externo do Magazine Luiza:</h3>
+        <div id="banner">
+            <div data-mvc-banner="medium-rectangle"></div><script> (function(storeName) { var b = document.createElement('script'); b.type = 'text/javascript'; b.async = true; b.src = 'https://www.magazinevoce.com.br/js/banner.js?store='+ storeName; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(b, s); })('andreresolve'); </script>
+        </div>
     </article>
     <footer>
         <h5>Contatos:</h5>
         <address>
             <p>R. Ruy Cajueiro, 426, aptº 01</p>
             <p><abbr title="Código de Endereçamento Postal">CEP</abbr> 45652-505 Boa Vista - Ilhéus - Bahia - Brasil</p>
-            <a href="mailto:andreensina@gmail.com" target="_blank"><span class="fas fa-envelope-square" style="font-size: 50px;"></span></a>
-            <a href="facebook.com/andreresolveilheus" target="_blank"><span class="fa fa-facebook-official" aria-hidden="true" style="font-size: 50px;"></span></a>
-            <br>
+            <p>
+                
+                <a href="mailto:andreensina@gmail.com" target="_blank"><span class="fas fa-envelope-square" style="font-size: 50px;color:#0000ff"></span></a>
+            </p>
+            <p>
+                <span class="fa fa-facebook-official" aria-hidden="true" style="font-size: 50px;color:#0000ff"></span>
+                <a href="facebook.com/andreresolveilheus" target="_blank">facebook.com/andreresolveilheus" target="_blank</a>
+            </p>
             <p>
                 <span class="fas fa-phone-square" style="font-size:50px;color:#0000ff;margin-top: 10px;float: left;"></span>
                 <ul id="telefones">
-                    <li>OI: (73) 92211-8771 <i class="fab fa-whatsapp" style="color:#008000"></i></li>
+                    <li>OI: (73) 92211-8771 <span class="fab fa-whatsapp" style="color:#008000"></span></li>
                     <li>TIM: (73) 99147-1005</li>
                     <li>Fixo da Claro: (73) 3086-3322</li>
                 </ul>
@@ -89,22 +93,22 @@
         alert('Nosso grupo no WhatsApp é o "Adoro Cinema", que como o próprio nome diz, nele falamos a respeito de cinema. Para ingressar fale com André Resolve: (73) 98811-8771, e solicite que lhe adicione.')
     </script>
     <!-- Marcação JSON-LD gerada pelo Assistente de marcação para dados estruturados do Google. -->
-<script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "LocalBusiness",
-      "name" : "André Resolve",
-      "image" : "http://www.googleusercontent.com/imagens/logo.jpeg",
-      "telephone" : "(73) 92211-8771",
-      "address" : {
-        "@type" : "PostalAddress",
-        "streetAddress" : "R. Ruy Cajueiro, 426, aptº 01",
-        "addressLocality" : "Ilhéus",
-        "addressRegion" : "Bahia",
-        "addressCountry" : "Brasil",
-        "postalCode" : "45652-505"
-      }
-    }
+    <script type="application/ld+json">
+        {
+        "@context" : "http://schema.org",
+        "@type" : "LocalBusiness",
+        "name" : "André Resolve",
+        "image" : "http://www.googleusercontent.com/imagens/logo.jpeg",
+        "telephone" : "(73) 92211-8771",
+        "address" : {
+            "@type" : "PostalAddress",
+            "streetAddress" : "R. Ruy Cajueiro, 426, aptº 01",
+            "addressLocality" : "Ilhéus",
+            "addressRegion" : "Bahia",
+            "addressCountry" : "Brasil",
+            "postalCode" : "45652-505"
+        }
+        }
     </script>
 </body>
 </html>
